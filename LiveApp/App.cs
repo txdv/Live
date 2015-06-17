@@ -37,7 +37,7 @@ namespace LiveApp
         {
             get
             {
-                return !string.IsNullOrEmpty(App.Hash);
+                return !string.IsNullOrEmpty(App.Hash) && App.Hash != "#";
             }
         }
 
