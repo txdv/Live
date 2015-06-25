@@ -39,11 +39,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bridge.Contract, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Bridge.Contract, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Bridge\Bridge.Contract.dll</HintPath>
     </Reference>
-    <Reference Include="Bridge.Translator, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Bridge.Translator, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Bridge\Bridge.Translator.dll</HintPath>
     </Reference>
