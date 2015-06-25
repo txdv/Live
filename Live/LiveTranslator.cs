@@ -130,7 +130,7 @@ namespace Live
             switch (Environment.OSVersion.Platform)
             {
                 case PlatformID.Win32NT:                    
-                    return String.Format(@" /noconfig /nostdlib+ /warn:0 /reference:{0} /out:{1} {2}",
+                    return String.Format(@" /noconfig /nostdlib+ /warn:0 /target:library /reference:{0} /out:{1} {2}",
                         string.Format("{0};{1};{2};{3};{4}", 
                             this.bridgeFolder + "Bridge.dll",
                             this.bridgeFolder + "Bridge.Html5.dll",
